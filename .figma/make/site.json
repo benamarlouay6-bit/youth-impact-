@@ -1,0 +1,10 @@
+{
+  "description": "Empowers high school students to organize events, raise funds, and showcase impactful projects improving their schools through a dynamic, informative platform.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
