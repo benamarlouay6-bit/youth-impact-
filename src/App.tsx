@@ -10,7 +10,7 @@ import mediaKit from "./assets/youth-impact-media-kit.pdf"
 
 type IconName = "arrow" | "calendar" | "chevron" | "close" | "mail" | "map" | "menu" | "music" | "play" | "sport" | "ticket" | "user"
 
-function Icon({ name, size = 20 }: { name: IconName size?: number }) {
+function Icon({ name, size = 20 }: { name: IconName; size?: number }) {
   const paths: Record<IconName, React.ReactNode> = {
     arrow: (
       <>
